@@ -9,13 +9,13 @@ var
 inicio
    soma <- 0
 
-   escreval("Digite um número (0 para parar): ")
+   escreva("Digite um número (0 para parar): ")
    leia(numero)
 
    enquanto numero <> 0 faca
       soma <- soma + numero
 
-      escreval("Digite um número (0 para parar): ")
+      escreva("Digite um número (0 para parar): ")
       leia(numero)
    fimenquanto
 
